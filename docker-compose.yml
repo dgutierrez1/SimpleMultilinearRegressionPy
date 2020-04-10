@@ -1,0 +1,8 @@
+version: "3"
+services:
+  node:
+    build: .
+    ports:
+      - 7001:7001
+    volumes:
+      - ".:/app"
